@@ -13,7 +13,7 @@ function Boton(props) {
       onClick={() => props.manejarClick(props.children)}>
       {props.children}
     </div>
-  )
-}
+  );
+};
 
 export default Boton
